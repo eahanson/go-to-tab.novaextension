@@ -1,0 +1,16 @@
+{
+  "activationEvents": ["*"],
+  "bugs": "https://github.com/eahanson/go-to-tab.novaextension/issues",
+  "categories": ["commands"],
+  "commands": { "extensions": [{ "title": "Go to Tab…", "command": "go-to-tab.show-tabs" }] },
+  "config": [],
+  "description": "Go to an open tab",
+  "entitlements": {},
+  "homepage": "https://github.com/eahanson/go-to-tab.novaextension/",
+  "identifier": "eahanson.go-to-tab",
+  "main": "main.js",
+  "name": "Go To Tab",
+  "organization": "Erik Hanson",
+  "repository": "https://github.com/eahanson/go-to-tab.novaextension/",
+  "version": "1.0"
+}
