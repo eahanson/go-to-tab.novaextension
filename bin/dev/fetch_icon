@@ -4,7 +4,7 @@ set -eo pipefail
 source "bin/_support/cecho.sh"
 source "bin/_support/step.sh"
 
-icon=${1:?"USAGE: ${0} icon-name-without-filename-extension"}
+icon=${1:-"files"}
 
 step_with_output "Brew bundle" \
   "brew bundle"
@@ -17,10 +17,10 @@ step_with_output "Setting stroke-width to 1" \
 
 step_with_output "Setting stroke color to ff0000" \
   "sed -i '' -e 's/stroke=\"currentColor\"/stroke=\"#ff0000\"/g' 'extension.svg'"
-  
+
 step_with_output "Converting to png" \
   "rsvg-convert -h 256 extension.svg > extension.png"
-  
+
 step_with_output "Making a duplicate for the 2x version" \
   "cp extension.png 'extension@2x.png'"
 
