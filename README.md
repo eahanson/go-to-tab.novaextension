@@ -13,7 +13,7 @@ To run Go To Tab:
 
 Assign a keyboard shortcut in Nova’s settings. The author uses `mash-t` (`cmd-opt-ctrl-t`).
 
-## Nova extensions I’ve written
+## Other Nova extensions you might like :)
 
 - **Document Sections** lets you jump around to various sections in a text document using a customizable marker
   (typically a code comment in a certain format).
